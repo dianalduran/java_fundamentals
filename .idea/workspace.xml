@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="Conditions and while loops">
-      <change afterPath="$PROJECT_DIR$/src/main/java/loops/AddNumbers.java" afterDir="false" />
+    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="for loops">
+      <change afterPath="$PROJECT_DIR$/src/main/java/loops/Cashier.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -45,9 +45,22 @@
       <recent name="decision_structure" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.AddNumbers">
+  <component name="RunManager" selected="Application.Cashier">
     <configuration name="AddNumbers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="loops.AddNumbers" />
+      <module name="java_fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="loops.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Cashier" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="loops.Cashier" />
       <module name="java_fundamentals" />
       <extension name="coverage">
         <pattern>
@@ -85,19 +98,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QuotaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="decision_structure.QuotaCalculator" />
-      <module name="java_fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="decision_structure.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="TestResults" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="decision_structure.TestResults" />
       <module name="java_fundamentals" />
@@ -113,11 +113,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Cashier" />
         <item itemvalue="Application.AddNumbers" />
         <item itemvalue="Application.GrossPayInputValidation" />
         <item itemvalue="Application.GradeMessage" />
         <item itemvalue="Application.TestResults" />
-        <item itemvalue="Application.QuotaCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -138,7 +138,15 @@
       <option name="project" value="LOCAL" />
       <updated>1701941456156</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="do while loop">
+      <option name="closed" value="true" />
+      <created>1701980858888</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1701980858888</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -154,6 +162,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Conditions and while loops" />
-    <option name="LAST_COMMIT_MESSAGE" value="Conditions and while loops" />
+    <MESSAGE value="do while loop" />
+    <MESSAGE value="for loops" />
+    <option name="LAST_COMMIT_MESSAGE" value="for loops" />
   </component>
 </project>
