@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="closed scanner">
-      <change afterPath="$PROJECT_DIR$/src/main/java/arrays/LotteryTicket.java" afterDir="false" />
+    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="using arrays">
+      <change afterPath="$PROJECT_DIR$/src/main/java/strings/TextProcessor.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +21,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.1/Contents/Home/lib/src.zip!/java.base/java/util/random/RandomGenerator.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -45,20 +48,7 @@
       <recent name="decision_structure" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LotteryTicket">
-    <configuration name="GreetUser" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methods.GreetUser" />
-      <module name="java_fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="methods.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.TextProcessor">
     <configuration name="HomeAreaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="objects.HomeAreaCalculator" />
       <module name="java_fundamentals" />
@@ -111,13 +101,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TextProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="strings.TextProcessor" />
+      <module name="java_fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="strings.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TextProcessor" />
         <item itemvalue="Application.LotteryTicket" />
         <item itemvalue="Application.HomeAreaCalculatorRedo" />
         <item itemvalue="Application.HomeAreaCalculator" />
         <item itemvalue="Application.InstantCreditCheck" />
-        <item itemvalue="Application.GreetUser" />
       </list>
     </recent_temporary>
   </component>
@@ -186,7 +189,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703188506040</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="using arrays">
+      <option name="closed" value="true" />
+      <created>1703201600377</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703201600377</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,7 +221,8 @@
     <MESSAGE value="used Rectangle constructor to instantiate two rectangles" />
     <MESSAGE value="sending and receiving objects" />
     <MESSAGE value="closed scanner" />
-    <option name="LAST_COMMIT_MESSAGE" value="closed scanner" />
+    <MESSAGE value="using arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="using arrays" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
