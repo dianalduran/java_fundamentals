@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="reverse string processing">
-      <change beforePath="$PROJECT_DIR$/src/main/java/strings/TextProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/strings/TextProcessor.java" afterDir="false" />
+    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="using StringBuilder to modify text">
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/InheritanceTester.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Person.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,7 +50,7 @@
       <recent name="decision_structure" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TextProcessor">
+  <component name="RunManager" selected="Application.InheritanceTester">
     <configuration name="HomeAreaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="objects.HomeAreaCalculator" />
       <module name="java_fundamentals" />
@@ -75,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="InstantCreditCheck" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="methods.InstantCreditCheck" />
+    <configuration name="InheritanceTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.InheritanceTester" />
       <module name="java_fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="methods.*" />
+          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.InheritanceTester" />
         <item itemvalue="Application.TextProcessor" />
         <item itemvalue="Application.LotteryTicket" />
         <item itemvalue="Application.HomeAreaCalculatorRedo" />
         <item itemvalue="Application.HomeAreaCalculator" />
-        <item itemvalue="Application.InstantCreditCheck" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +215,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703711253981</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="using StringBuilder to modify text">
+      <option name="closed" value="true" />
+      <created>1703711836973</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1703711836973</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -240,7 +250,8 @@
     <MESSAGE value="using arrays" />
     <MESSAGE value="using split method and format for text processing" />
     <MESSAGE value="reverse string processing" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverse string processing" />
+    <MESSAGE value="using StringBuilder to modify text" />
+    <option name="LAST_COMMIT_MESSAGE" value="using StringBuilder to modify text" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
