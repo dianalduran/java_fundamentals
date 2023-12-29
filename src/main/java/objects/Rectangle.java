@@ -14,6 +14,10 @@ public class Rectangle {
         setLength(length);
         setWidth(width);
     }
+
+    public void print(){
+        System.out.println("I am a rectangle");
+    }
     public double calculatePerimeter(){
         return (2 * length) + (2 * width);
     }
