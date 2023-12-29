@@ -4,10 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="overriding parameters of inherited classes">
-      <change beforePath="$PROJECT_DIR$/src/main/java/inheritance/InheritanceTester.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inheritance/InheritanceTester.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/inheritance/Square.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inheritance/Square.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/objects/Rectangle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/objects/Rectangle.java" afterDir="false" />
+    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="overloaded print method">
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Cat.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Dog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/inheritance/Zoo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,20 +51,7 @@
       <recent name="decision_structure" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.InheritanceTester">
-    <configuration name="HomeAreaCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objects.HomeAreaCalculator" />
-      <module name="java_fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="objects.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Zoo">
     <configuration name="HomeAreaCalculatorRedo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="objects.HomeAreaCalculatorRedo" />
       <module name="java_fundamentals" />
@@ -116,13 +104,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="inheritance.Zoo" />
+      <module name="java_fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="inheritance.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Zoo" />
         <item itemvalue="Application.InheritanceTester" />
         <item itemvalue="Application.TextProcessor" />
         <item itemvalue="Application.LotteryTicket" />
         <item itemvalue="Application.HomeAreaCalculatorRedo" />
-        <item itemvalue="Application.HomeAreaCalculator" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +240,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703818627343</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="overloaded print method">
+      <option name="closed" value="true" />
+      <created>1703835482138</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1703835482138</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -269,7 +278,8 @@
     <MESSAGE value="using StringBuilder to modify text" />
     <MESSAGE value="extending classes to test inheritance" />
     <MESSAGE value="overriding parameters of inherited classes" />
-    <option name="LAST_COMMIT_MESSAGE" value="overriding parameters of inherited classes" />
+    <MESSAGE value="overloaded print method" />
+    <option name="LAST_COMMIT_MESSAGE" value="overloaded print method" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
