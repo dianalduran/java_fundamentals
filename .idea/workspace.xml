@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="noting instanceof pattern matching">
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstraction/Rectangle.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstraction/Shape.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/abstraction/ShapeTester.java" afterDir="false" />
+    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="understanding abstraction">
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Library.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Product.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +17,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -56,7 +57,7 @@
       <recent name="decision_structure" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ShapeTester">
+  <component name="RunManager" selected="Application.Library">
     <configuration name="InheritanceTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.InheritanceTester" />
       <module name="java_fundamentals" />
@@ -70,12 +71,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LotteryTicket" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrays.LotteryTicket" />
+    <configuration name="Library" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="interfaces.Library" />
       <module name="java_fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrays.*" />
+          <option name="PATTERN" value="interfaces.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Library" />
         <item itemvalue="Application.ShapeTester" />
         <item itemvalue="Application.Zoo" />
         <item itemvalue="Application.InheritanceTester" />
         <item itemvalue="Application.TextProcessor" />
-        <item itemvalue="Application.LotteryTicket" />
       </list>
     </recent_temporary>
   </component>
@@ -293,7 +294,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704222914178</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="understanding abstraction">
+      <option name="closed" value="true" />
+      <created>1704224585563</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1704224585563</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -328,7 +337,8 @@
     <MESSAGE value="down casting" />
     <MESSAGE value="used instanceof operator" />
     <MESSAGE value="noting instanceof pattern matching" />
-    <option name="LAST_COMMIT_MESSAGE" value="noting instanceof pattern matching" />
+    <MESSAGE value="understanding abstraction" />
+    <option name="LAST_COMMIT_MESSAGE" value="understanding abstraction" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -341,6 +351,15 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/interfaces/Library.java</url>
+          <line>3</line>
+          <properties class="interfaces.Library" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
