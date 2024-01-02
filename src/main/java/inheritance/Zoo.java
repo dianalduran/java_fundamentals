@@ -11,6 +11,16 @@ public class Zoo {
         //sasha.makeSound();
         feed(sasha);
 
+        if(sasha instanceof Dog sashaTheDog){
+            sashaTheDog.fetch();
+        }
+
+        //instanceof pattern matching above the same as
+        if(sasha instanceof Dog){
+            Dog sashaTheDog = (Dog)sasha;
+            sashaTheDog.fetch();
+        }
+
         sasha = new Cat();
         //sasha.makeSound();
         //((Cat)sasha).scratch();
