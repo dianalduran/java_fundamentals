@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="noting instanceof pattern matching">
-      <change beforePath="$PROJECT_DIR$/src/main/java/inheritance/Zoo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/inheritance/Zoo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstraction/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstraction/Shape.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/abstraction/ShapeTester.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,11 +21,17 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="origin/master" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="jar://$USER_HOME$/Library/Java/JavaVirtualMachines/openjdk-21.0.1/Contents/Home/lib/src.zip!/java.base/java/util/random/RandomGenerator.java" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 0
@@ -48,20 +56,7 @@
       <recent name="decision_structure" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Zoo">
-    <configuration name="HomeAreaCalculatorRedo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="objects.HomeAreaCalculatorRedo" />
-      <module name="java_fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="objects.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.ShapeTester">
     <configuration name="InheritanceTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.InheritanceTester" />
       <module name="java_fundamentals" />
@@ -81,6 +76,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="arrays.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ShapeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="abstraction.ShapeTester" />
+      <module name="java_fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="abstraction.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -116,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ShapeTester" />
         <item itemvalue="Application.Zoo" />
         <item itemvalue="Application.InheritanceTester" />
         <item itemvalue="Application.TextProcessor" />
         <item itemvalue="Application.LotteryTicket" />
-        <item itemvalue="Application.HomeAreaCalculatorRedo" />
       </list>
     </recent_temporary>
   </component>
@@ -269,7 +277,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703837995417</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="noting instanceof pattern matching">
+      <option name="closed" value="true" />
+      <created>1704222643695</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1704222643696</updated>
+    </task>
+    <task id="LOCAL-00019" summary="noting instanceof pattern matching">
+      <option name="closed" value="true" />
+      <created>1704222914178</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1704222914178</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
