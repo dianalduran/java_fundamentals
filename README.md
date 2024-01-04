@@ -25,8 +25,18 @@ Concepts covered:
 - chain of inheritance
 - limiting access and access modifiers
 - sealed classes
-5. Polymorphism
+5. Polymorphism & Abstraction
   - polymorphism and type casting
   - instanceof operator
   - instanceof pattern matching
-  - 
+  - abstraction 
+  - interfaces
+  - multiple inheritance 
+6. Data Structures
+- Set
+- List
+- Queue
+- Map
+- Collection Iterators
+- Iterating with Enhanced For Loop
+- Iterating with For Each
