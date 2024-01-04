@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="using the queue and map data structures as well as the iterator">
+    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="using enhanced loop on listDemo">
       <change beforePath="$PROJECT_DIR$/src/main/java/data_structures/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_structures/CollectionsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -332,7 +332,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704388103154</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="using enhanced loop on listDemo">
+      <option name="closed" value="true" />
+      <created>1704388762354</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1704388762354</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -347,7 +355,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="Conditions and while loops" />
     <MESSAGE value="do while loop" />
     <MESSAGE value="for loops" />
     <MESSAGE value="methods" />
@@ -372,7 +379,8 @@
     <MESSAGE value="using the Set data structure" />
     <MESSAGE value="using the List data structure" />
     <MESSAGE value="using the queue and map data structures as well as the iterator" />
-    <option name="LAST_COMMIT_MESSAGE" value="using the queue and map data structures as well as the iterator" />
+    <MESSAGE value="using enhanced loop on listDemo" />
+    <option name="LAST_COMMIT_MESSAGE" value="using enhanced loop on listDemo" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -385,11 +393,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/data_structures/CollectionsDemo.java</url>
-          <line>34</line>
-          <option name="timeStamp" value="5" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

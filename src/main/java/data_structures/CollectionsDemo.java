@@ -5,9 +5,9 @@ import java.util.*;
 public class CollectionsDemo {
     public static void main(String[] args){
 //        setDemo();
-        listDemo();
+//        listDemo();
 //        queueDemo();
-//        mapDemo();
+        mapDemo();
     }
 
     public static void setDemo(){
@@ -70,7 +70,7 @@ public class CollectionsDemo {
     }
 
     public static void mapDemo(){
-        Map fruitCalories = new HashMap();
+        Map<String, Integer> fruitCalories = new HashMap();
         fruitCalories.put("apple", 95);
         fruitCalories.put("lemon", 20);
         fruitCalories.put("banana", 105);
@@ -78,14 +78,18 @@ public class CollectionsDemo {
         fruitCalories.putIfAbsent("lemon", 17);
         fruitCalories.remove("lemon");
 
-        System.out.println(fruitCalories);
-        System.out.println("banana calories: " + fruitCalories.get("banana"));
-        System.out.println("contains orange? " + fruitCalories.containsKey("orange"));
+        for(Map.Entry calorieInfo : fruitCalories.entrySet()){
+            System.out.println(calorieInfo.getKey() +  ":" + calorieInfo.getValue());
+        }
 
-        Map immutableFruitCalories = Map.of(
-                "apple", 95,
-                "lemon",20
-
-        );
+//        System.out.println(fruitCalories);
+//        System.out.println("banana calories: " + fruitCalories.get("banana"));
+//        System.out.println("contains orange? " + fruitCalories.containsKey("orange"));
+//
+//        Map immutableFruitCalories = Map.of(
+//                "apple", 95,
+//                "lemon",20
+//
+//        );
     }
 }
