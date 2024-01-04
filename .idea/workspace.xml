@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="iterating through map using Map.Entry and entrySet()">
-      <change beforePath="$PROJECT_DIR$/src/main/java/data_structures/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_structures/CollectionsDemo.java" afterDir="false" />
+    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="updated README.md to cover abstraction and data structures">
+      <change afterPath="$PROJECT_DIR$/src/main/java/streams/StreamOperations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,26 +56,13 @@
       <recent name="decision_structure" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.CollectionsDemo">
+  <component name="RunManager" selected="Application.StreamOperations">
     <configuration name="CollectionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="data_structures.CollectionsDemo" />
       <module name="java_fundamentals" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="data_structures.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="InheritanceTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="inheritance.InheritanceTester" />
-      <module name="java_fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="inheritance.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -108,6 +96,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="StreamOperations" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="streams.StreamOperations" />
+      <module name="java_fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="streams.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.Zoo" />
       <module name="java_fundamentals" />
@@ -123,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.StreamOperations" />
         <item itemvalue="Application.CollectionsDemo" />
         <item itemvalue="Application.Library" />
         <item itemvalue="Application.ShapeTester" />
         <item itemvalue="Application.Zoo" />
-        <item itemvalue="Application.InheritanceTester" />
       </list>
     </recent_temporary>
   </component>
@@ -348,7 +349,31 @@
       <option name="project" value="LOCAL" />
       <updated>1704389054625</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="iterating through list and map using forEach">
+      <option name="closed" value="true" />
+      <created>1704389975991</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1704389975991</updated>
+    </task>
+    <task id="LOCAL-00028" summary="method references">
+      <option name="closed" value="true" />
+      <created>1704390419013</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1704390419013</updated>
+    </task>
+    <task id="LOCAL-00029" summary="updated README.md to cover abstraction and data structures">
+      <option name="closed" value="true" />
+      <created>1704390633078</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1704390633078</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -363,9 +388,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="for loops" />
-    <MESSAGE value="methods" />
-    <MESSAGE value="multiple methods" />
     <MESSAGE value="added rectangle object" />
     <MESSAGE value="used Rectangle constructor to instantiate two rectangles" />
     <MESSAGE value="sending and receiving objects" />
@@ -388,7 +410,10 @@
     <MESSAGE value="using the queue and map data structures as well as the iterator" />
     <MESSAGE value="using enhanced loop on listDemo" />
     <MESSAGE value="iterating through map using Map.Entry and entrySet()" />
-    <option name="LAST_COMMIT_MESSAGE" value="iterating through map using Map.Entry and entrySet()" />
+    <MESSAGE value="iterating through list and map using forEach" />
+    <MESSAGE value="method references" />
+    <MESSAGE value="updated README.md to cover abstraction and data structures" />
+    <option name="LAST_COMMIT_MESSAGE" value="updated README.md to cover abstraction and data structures" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -401,6 +426,11 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/data_structures/CollectionsDemo.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="7" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
