@@ -5,7 +5,7 @@ import java.util.*;
 public class CollectionsDemo {
     public static void main(String[] args){
 //        setDemo();
-//        listDemo();
+        listDemo();
 //        queueDemo();
         mapDemo();
     }
@@ -43,9 +43,13 @@ public class CollectionsDemo {
 //        fruits.remove("lemon"); //removes the first found
 //        fruits.remove(3);
 
-        for(String fruit: fruits){
-            System.out.println(fruit);
-        }
+//        for(String fruit: fruits){
+//            System.out.println(fruit);
+//        }
+
+        fruits.forEach(f -> System.out.println(f));
+        //or alternative reference method:
+        fruits.forEach(System.out::println);
 
 //        System.out.println("index 2: " + fruits.get(2));
 //        System.out.println("index of grape: " + fruits.indexOf("grape"));
@@ -78,9 +82,11 @@ public class CollectionsDemo {
         fruitCalories.putIfAbsent("lemon", 17);
         fruitCalories.remove("lemon");
 
-        for(Map.Entry calorieInfo : fruitCalories.entrySet()){
-            System.out.println(calorieInfo.getKey() +  ":" + calorieInfo.getValue());
-        }
+//        for(Map.Entry calorieInfo : fruitCalories.entrySet()){
+//            System.out.println(calorieInfo.getKey() +  ":" + calorieInfo.getValue());
+//        }
+
+        fruitCalories.forEach((k, v) -> System.out.println(k + " : " + v));
 
 //        System.out.println(fruitCalories);
 //        System.out.println("banana calories: " + fruitCalories.get("banana"));

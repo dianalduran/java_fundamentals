@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="using enhanced loop on listDemo">
+    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="iterating through map using Map.Entry and entrySet()">
       <change beforePath="$PROJECT_DIR$/src/main/java/data_structures/CollectionsDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/data_structures/CollectionsDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -340,7 +340,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704388762354</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="iterating through map using Map.Entry and entrySet()">
+      <option name="closed" value="true" />
+      <created>1704389054625</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1704389054625</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,7 +363,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="do while loop" />
     <MESSAGE value="for loops" />
     <MESSAGE value="methods" />
     <MESSAGE value="multiple methods" />
@@ -380,7 +387,8 @@
     <MESSAGE value="using the List data structure" />
     <MESSAGE value="using the queue and map data structures as well as the iterator" />
     <MESSAGE value="using enhanced loop on listDemo" />
-    <option name="LAST_COMMIT_MESSAGE" value="using enhanced loop on listDemo" />
+    <MESSAGE value="iterating through map using Map.Entry and entrySet()" />
+    <option name="LAST_COMMIT_MESSAGE" value="iterating through map using Map.Entry and entrySet()" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
