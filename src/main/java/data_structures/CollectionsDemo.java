@@ -1,14 +1,13 @@
 package data_structures;
 
-import java.util.ArrayList;
-import java.util.HashSet;
-import java.util.List;
-import java.util.Set;
+import java.util.*;
 
 public class CollectionsDemo {
     public static void main(String[] args){
-//        setDemo();
-        listDemo();
+        setDemo();
+//        listDemo();
+//        queueDemo();
+//        mapDemo();
     }
 
     public static void setDemo(){
@@ -17,14 +16,19 @@ public class CollectionsDemo {
         fruits.add("banana");
         fruits.add("lemon");
 
-        System.out.println(fruits);
-        fruits.remove("lemon");
-        System.out.println("Contains lemon? "+ fruits.contains("lemon"));
+        var i = fruits.iterator();
+        while(i.hasNext()){
+            System.out.println(i.next());
+        }
 
-        System.out.println("size: " + fruits.size());
-
-//        Set.of is an immutable set
-        Set moreFruits = Set.of("pear", "cherry", "raisin");
+//        System.out.println(fruits);
+//        fruits.remove("lemon");
+//        System.out.println("Contains lemon? "+ fruits.contains("lemon"));
+//
+//        System.out.println("size: " + fruits.size());
+//
+////        Set.of is an immutable set
+//        Set moreFruits = Set.of("pear", "cherry", "raisin");
     }
 
     public static void listDemo(){
@@ -45,5 +49,39 @@ public class CollectionsDemo {
         System.out.println(fruits);
 
         List moreFruit = List.of("cherry", "plum"); //immutable
+    }
+
+    public static void queueDemo(){
+        Queue fruits = new LinkedList();
+        fruits.add("apple");
+        fruits.add("lemon");
+        fruits.add("banana");
+        fruits.add("orange");
+        fruits.add("lemon");
+
+        var removed = fruits.remove();
+        System.out.println("removed: " + removed);
+        System.out.println("head of queue: " + fruits.peek());
+        System.out.println(fruits);
+    }
+
+    public static void mapDemo(){
+        Map fruitCalories = new HashMap();
+        fruitCalories.put("apple", 95);
+        fruitCalories.put("lemon", 20);
+        fruitCalories.put("banana", 105);
+        fruitCalories.put("orange", 45);
+        fruitCalories.putIfAbsent("lemon", 17);
+        fruitCalories.remove("lemon");
+
+        System.out.println(fruitCalories);
+        System.out.println("banana calories: " + fruitCalories.get("banana"));
+        System.out.println("contains orange? " + fruitCalories.containsKey("orange"));
+
+        Map immutableFruitCalories = Map.of(
+                "apple", 95,
+                "lemon",20
+
+        );
     }
 }
