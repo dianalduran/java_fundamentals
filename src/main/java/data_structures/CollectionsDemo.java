@@ -4,8 +4,8 @@ import java.util.*;
 
 public class CollectionsDemo {
     public static void main(String[] args){
-        setDemo();
-//        listDemo();
+//        setDemo();
+        listDemo();
 //        queueDemo();
 //        mapDemo();
     }
@@ -32,7 +32,7 @@ public class CollectionsDemo {
     }
 
     public static void listDemo(){
-        List fruits = new ArrayList();
+        List<String> fruits = new ArrayList();
         fruits.add("apple");
         fruits.add("lemon");
         fruits.add("banana");
@@ -43,12 +43,16 @@ public class CollectionsDemo {
 //        fruits.remove("lemon"); //removes the first found
 //        fruits.remove(3);
 
-        System.out.println("index 2: " + fruits.get(2));
-        System.out.println("index of grape: " + fruits.indexOf("grape"));
-        System.out.println("last index of lemon: " + fruits.lastIndexOf("lemon"));
-        System.out.println(fruits);
+        for(String fruit: fruits){
+            System.out.println(fruit);
+        }
 
-        List moreFruit = List.of("cherry", "plum"); //immutable
+//        System.out.println("index 2: " + fruits.get(2));
+//        System.out.println("index of grape: " + fruits.indexOf("grape"));
+//        System.out.println("last index of lemon: " + fruits.lastIndexOf("lemon"));
+//        System.out.println(fruits);
+//
+//        List moreFruit = List.of("cherry", "plum"); //immutable
     }
 
     public static void queueDemo(){
