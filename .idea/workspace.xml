@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="understanding abstraction">
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Library.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/Product.java" afterDir="false" />
+    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="using interfaces">
+      <change afterPath="$PROJECT_DIR$/src/main/java/data_structures/CollectionsDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +56,20 @@
       <recent name="decision_structure" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Library">
+  <component name="RunManager" selected="Application.CollectionsDemo">
+    <configuration name="CollectionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="data_structures.CollectionsDemo" />
+      <module name="java_fundamentals" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="data_structures.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="InheritanceTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.InheritanceTester" />
       <module name="java_fundamentals" />
@@ -97,19 +109,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TextProcessor" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="strings.TextProcessor" />
-      <module name="java_fundamentals" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="strings.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="Zoo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="inheritance.Zoo" />
       <module name="java_fundamentals" />
@@ -125,11 +124,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CollectionsDemo" />
         <item itemvalue="Application.Library" />
         <item itemvalue="Application.ShapeTester" />
         <item itemvalue="Application.Zoo" />
         <item itemvalue="Application.InheritanceTester" />
-        <item itemvalue="Application.TextProcessor" />
       </list>
     </recent_temporary>
   </component>
@@ -302,7 +301,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704224585563</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="using interfaces">
+      <option name="closed" value="true" />
+      <created>1704225223035</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1704225223036</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -338,7 +345,8 @@
     <MESSAGE value="used instanceof operator" />
     <MESSAGE value="noting instanceof pattern matching" />
     <MESSAGE value="understanding abstraction" />
-    <option name="LAST_COMMIT_MESSAGE" value="understanding abstraction" />
+    <MESSAGE value="using interfaces" />
+    <option name="LAST_COMMIT_MESSAGE" value="using interfaces" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -351,15 +359,6 @@
             <option name="WATCH_EXIT" value="false" />
           </properties>
           <option name="timeStamp" value="1" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/src/main/java/interfaces/Library.java</url>
-          <line>3</line>
-          <properties class="interfaces.Library" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
