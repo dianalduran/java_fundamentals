@@ -48,7 +48,7 @@ public class CollectionsDemo {
 //        }
 
         fruits.forEach(f -> System.out.println(f));
-        //or alternative reference method:
+        //or alternative method reference:
         fruits.forEach(System.out::println);
 
 //        System.out.println("index 2: " + fruits.get(2));
