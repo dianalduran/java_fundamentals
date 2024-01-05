@@ -4,9 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="updated README.md to cover abstraction and data structures">
-      <change afterPath="$PROJECT_DIR$/src/main/java/streams/StreamOperations.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="using streams to anyMatch, allMatch, filter, map and reduce">
+      <change beforePath="$PROJECT_DIR$/src/main/java/streams/StreamOperations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/streams/StreamOperations.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -373,7 +372,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704390633078</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="using streams to anyMatch, allMatch, filter, map and reduce">
+      <option name="closed" value="true" />
+      <created>1704405014058</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1704405014059</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -388,7 +395,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="added rectangle object" />
     <MESSAGE value="used Rectangle constructor to instantiate two rectangles" />
     <MESSAGE value="sending and receiving objects" />
     <MESSAGE value="closed scanner" />
@@ -413,7 +419,8 @@
     <MESSAGE value="iterating through list and map using forEach" />
     <MESSAGE value="method references" />
     <MESSAGE value="updated README.md to cover abstraction and data structures" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated README.md to cover abstraction and data structures" />
+    <MESSAGE value="using streams to anyMatch, allMatch, filter, map and reduce" />
+    <option name="LAST_COMMIT_MESSAGE" value="using streams to anyMatch, allMatch, filter, map and reduce" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
