@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="using collect to store string into a List">
-      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/ExceptionHandling.java" afterDir="false" />
+    <list default="true" id="38ed9736-e912-41ea-9582-f1f6ebb2381e" name="Changes" comment="handling exceptions">
+      <change afterPath="$PROJECT_DIR$/files/numbers.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/exceptions/MultipleExceptionHandling.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,7 +57,7 @@
       <recent name="decision_structure" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ExceptionHandling">
+  <component name="RunManager" selected="Application.MultipleExceptionHandling">
     <configuration name="CollectionsDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="data_structures.CollectionsDemo" />
       <module name="java_fundamentals" />
@@ -95,12 +97,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShapeTester" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="abstraction.ShapeTester" />
+    <configuration name="MultipleExceptionHandling" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="exceptions.MultipleExceptionHandling" />
       <module name="java_fundamentals" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="abstraction.*" />
+          <option name="PATTERN" value="exceptions.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -123,11 +125,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MultipleExceptionHandling" />
         <item itemvalue="Application.ExceptionHandling" />
         <item itemvalue="Application.StreamOperations" />
         <item itemvalue="Application.CollectionsDemo" />
         <item itemvalue="Application.Library" />
-        <item itemvalue="Application.ShapeTester" />
       </list>
     </recent_temporary>
   </component>
@@ -388,7 +390,15 @@
       <option name="project" value="LOCAL" />
       <updated>1704435716976</updated>
     </task>
-    <option name="localTasksCounter" value="32" />
+    <task id="LOCAL-00032" summary="handling exceptions">
+      <option name="closed" value="true" />
+      <created>1704436348173</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1704436348173</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -403,7 +413,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="sending and receiving objects" />
     <MESSAGE value="closed scanner" />
     <MESSAGE value="using arrays" />
     <MESSAGE value="using split method and format for text processing" />
@@ -428,7 +437,8 @@
     <MESSAGE value="updated README.md to cover abstraction and data structures" />
     <MESSAGE value="using streams to anyMatch, allMatch, filter, map and reduce" />
     <MESSAGE value="using collect to store string into a List" />
-    <option name="LAST_COMMIT_MESSAGE" value="using collect to store string into a List" />
+    <MESSAGE value="handling exceptions" />
+    <option name="LAST_COMMIT_MESSAGE" value="handling exceptions" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
